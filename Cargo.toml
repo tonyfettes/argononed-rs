@@ -9,5 +9,6 @@ edition = "2018"
 [dependencies]
 rppal = "0.11.3"
 toml = "0.4.2"
+signal-hook = "0.2.1"
 serde = { version = "1.0.117", features = ["derive"] }
-
+libc = "0.2.80"
